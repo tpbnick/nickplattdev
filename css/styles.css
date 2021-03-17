@@ -10140,3 +10140,9 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
