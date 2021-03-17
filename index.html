@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -24,7 +25,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Nicholas Platt</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/nick.png" alt="" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,6 +49,13 @@
                         Nicholas
                         <span class="text-primary">Platt</span>
                     </h1>
+                    <h3>I am a <span class="typer" id="some-id"
+                        data-words="technical writer.,developer.,problem solver.,professional."
+                        data-delay="90"
+                        data-colors="#5E81AC,#5E81AC,#5E81AC"
+                        data-delete-delay="1000">
+                        </span>
+                        <span style="font-size:1em;vertical-align:top;text-decoration: underline;" class="cursor" data-cursorDisplay="|" data-owner="some-id"></span></h3>
                     <div class="subheading mb-5">
                         Glen Burnie, MD 21060 · (909) 293-8750 ·
                         <a href="mailto:nickplatt4@gmail.com">nickplatt4@gmail.com</a>
@@ -68,6 +76,7 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <div class="subheading mb-3">Resume can be downloaded <a href="https://nicklyss.com/media/uploads/2021/02/Nicholas-Platt-Resume-21.pdf">HERE</a></div>
                             <h3 class="mb-0">Technical Writer III</h3>
                             <div class="subheading mb-3">Boeing Intelligence & Analytics</div>
                             <div class="flex-shrink-0"><span class="text-primary">August 2018 - Present</span></div><br>
@@ -121,7 +130,7 @@
             <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Portfolio</h2>
-                    <p class="lead mb-5">Portfolio Examples</p>
+                    <p class="lead mb-5"><strong>Portfolio Examples</strong></p>
                     <ul>
                         <li>
                             <a href="https://nicklyss.com/wp-content/uploads/2020/04/Firefox-Instructional-Guide-Nick-Platt.pdf"><strong>Installation Guide Example - Firefox (2018)</a></strong> The goal of this guide is to inform a user to properly download, install, setup, and personalize Mozilla Firefox. This guide includes an overview of Mozilla Firefox, a how-to for proper setup, general use instructions, and personalization run through. Screenshots are also included to aid the user for ease of reading. This document was created in a technical writing class I took at University of Maryland Global Campus in 2018.
@@ -136,7 +145,8 @@
                             <a href="https://soccerfront.io/"><strong>SoccerFront (2020)</a></strong> is a soccer live score web application that I built using Nodejs, Expressjs, HTML, CSS, and JavaScript. Soccerfront pulls data from the <a href="https://api-football.com/">API-FOOTBALL API</a> and displays the information in a easy to use live score table and league table (standings) view. Currently, over 20 leagues/cups are supported! This is an ongoing project and new features will be added sporadically.
                         </li>
                     </ul>
-                    <p class="lead mb-5">Images</p>
+                    <br>
+                    <p class="lead mb-5"><strong>Images</strong></p>
                     
                     <ul style="list-style-type:none;">
                         <li><strong>Custom Keyboard PCB with Switch Slot Callouts</strong><br><a href="images/Keyboard-PCB.png" data-lightbox="image-1" data-title="Custom Keyboard PCB with Switch Slot Callouts">
@@ -240,5 +250,6 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="js/lightbox.js"></script>
+        <script src="js/typer.js"></script>
     </body>
 </html>
